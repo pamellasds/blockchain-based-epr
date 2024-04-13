@@ -1,0 +1,252 @@
+html, body {
+    background-color: #E5E5E5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.novaObra-modal {
+	background: linear-gradient(90deg, #E449FD -21.05%, #8855F9 121.05%);
+	border-radius: 10px;
+	margin: 10px;
+	color: #fff;
+}
+
+.nav-top {
+	background: linear-gradient(#5D63F7 5.92%, #8855F9 97.39%, rgba(255, 255, 255, 0) 97.39%);
+	color: #fff;
+}
+
+.nav-session {
+	background: #3C444C;
+	border-radius: 10px 10px 0px 0px;
+	padding: 25px;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #fff;
+}
+
+.link-modal {
+	color:#fff;
+}
+
+.link-menu {
+	display: block;
+    padding: .5rem 1rem;
+    color: #fff;
+}
+
+.botaoGeral {
+	background: linear-gradient(90deg, #E449FD -21.05%, #8855F9 121.05%);
+	border-radius: 39px;
+}
+
+.botalGeralBranco {
+	border: 1px solid #8344A4;
+	box-sizing: border-box;
+	border-radius: 6px;
+	color: #8344A4;
+
+    display: inline-block;
+    font-weight: 400;
+    color: #8344A4;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.boxShadow {
+	-webkit-box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    0px 0px 0px rgba(50, 50, 50, 0.77);
+	box-shadow:         0px 0px 0px rgba(50, 50, 50, 0.77);
+	margin-bottom: 10px;
+}
+
+.boxTop {
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+
+.boxBranco-grande {
+	border: 0.5px solid #4971FD;
+	box-sizing: border-box;
+	border-radius: 8px;
+	color: #6C63FF;
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.textPayment-1 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.textPayment-records {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 115px;
+}
+
+.textPayment-congrats {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 30px;
+	align-items: center;
+	letter-spacing: -0.01em;
+	color: #160742;
+}
+
+.center {
+	text-align: center;
+	color: #2a74b2;
+	padding-top: 10px;
+  }
+
+.footerDiv {
+	background: linear-gradient(#5D63F7 5.92%, #8855F9 97.39%, rgba(255, 255, 255, 0) 97.39%);
+    color: #fff;
+}
+
+.socialsG {
+	border: 1px solid #9853FA;
+	box-sizing: border-box;
+	border-radius: 100px;
+	padding: 10px;
+	margin: 10px;
+	width: 59px;
+	height: 59px;
+	left: 740px;
+	top: 634px;
+}
+
+.socialsF {
+	border: 1px solid #9853FA;
+	box-sizing: border-box;
+	border-radius: 100px;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 10px;
+	width: 59px;
+	height: 59px;
+	left: 740px;
+	top: 634px;
+}
+
+.separator {
+	margin: 30px;
+	margin-bottom: 0px;
+}
+
+.loader {
+	border: 16px solid #d8d5d5;
+	border-radius: 50%;
+	border-top: 16px solid #2a74b2;
+	width: 80px;
+	height: 80px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	text-align: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  }
+  
+/*====== PLANOS ======*/
+.textPlan-congrats {
+	font-style: normal;
+	font-weight: normal;
+	padding: 20px;
+	padding-bottom: 10px;
+	font-size: 30px;
+	line-height: 30px;
+	align-items: center;
+	letter-spacing: -0.01em;
+	color: #160742;
+}
+
+.textPlan-resume {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 142.9%;
+	/* or 30px */
+	align-items: center;
+	color: #6D7389;
+	padding-left: 20px;
+
+}
+
+.textPlan-records {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 45px;
+	color: #001A75;
+}
+
+.textPlan-register-mounth {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 25px;
+	color: #160742;
+}
+
+.textPlan-records-user {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #858290;
+}
+
+.textPlan-under-price {
+	font-style: italic;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1px;
+	color: #858290;
+	margin-bottom: 30px;
+}
+
+.boxPlan {
+	background: #FFFFFF;
+	border: 0px solid #6C63FF;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.boxPlanCurrent {
+	background: #FFFFFF;
+	border: 5px solid #6C63FF;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+/* Esconde o input do tipo FILE */
+input[type='file'] {
+  display: none;
+}
+
